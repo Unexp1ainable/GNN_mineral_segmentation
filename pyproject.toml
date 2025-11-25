@@ -1,0 +1,16 @@
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = ["PLR0913", "T", "ERA", "PTH123", "SIM108", "D100", "W293", "D107", "D102", "N812", "ANN", "S301","TRY003", "RET504", "INP001", "FBT002", "EM101", "COM812"]
+
+[tool.ruff]
+line-length = 160
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pyright]
+reportOptionalMemberAccess = "none"
+reportOptionalSubscript = "none"
